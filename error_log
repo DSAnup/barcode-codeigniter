@@ -1,0 +1,1 @@
+[22-Jul-2018 12:10:10 UTC] PHP Fatal error:  Cannot redeclare Front::submit_registration() in /home/fwexrana/public_html/demo/application/modules/Front/controllers/Front.php on line 259
