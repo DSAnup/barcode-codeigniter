@@ -59,8 +59,9 @@ class Front extends MX_Controller
             $folder = $SERVERFILEPATH;
             $file_name1 = "SG_".$text."_" . substr($text, 1) . ".png";
             $file_name = $folder.$file_name1;
+            
             // $customer_url = 'http://www.anupmondal.me/';
-            QRcode::png( $file_name1);
+            QRcode::png($file_name1);
             
             echo"<center><img src=".base_url().'uploads/'.$file_name1."></center>";
         }
